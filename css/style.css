@@ -7,6 +7,7 @@ a {
 }
 body{
     font-family: 'Work Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
     background: rgba(43, 43, 43, 1);
 }
 
@@ -72,10 +73,10 @@ font-weight: 600;
 transition: .3s;
 }
 .btn:hover{
-    color: black;
-    background: rgb(255, 255, 255);
+    color: white;
+    background: rgb(251, 80, 1);
+    transform: scale(1.1);
     transition: .3s;
-    transform: scale(1.06);
 }
 .btn{
     position: relative;
@@ -98,8 +99,112 @@ transition: .3s;
 
 
 /* FOR HERO ------------------- */
+#hero{
+    margin-top: 90px;
+}
+.hero-all-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-info h1{
+    color: var(--White, #FFF);
+font-size: 67px;
+font-weight: 600;
+text-transform: capitalize;
+}
+.hero-info .pp{
+    color: var(--White, #ffffffbc);
 
+font-size: 22px;
+font-weight: 400;
+line-height: 160%; /* 35.2px */
+text-transform: capitalize;
+margin: 24px 0px;
+}
+.hero-btn{
+    margin: 10px 0 20px 0;
+    border: none;
+    display: flex;
+height: 60px;
+padding: 0px 50px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 20px;
+background: var(--Call-to-Action, #A259FF);
+color: #FFF;
+font-size: 16px;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+transition: .3s;
+cursor: pointer;
+}
+.hero-btn ion-icon{
+    font-size: 23px;
+}
+.hero-btn:hover{
+    color: white;
+    background: rgb(251, 80, 1);
+    transform: scale(1.1);
+    transition: .3s;
+}
+.hero-followers{
+    display: flex;
+    gap: 40px;
+}
+.follow h1{
+color: var(--White, #FFF);
+font-size: 28px;
+font-weight: 700;
+}
+.follow p{
+    color: var(--White, #ffffffcf);
+font-size: 22px;
+font-weight: 400;
+}
 
+.hero-main-img .hero-back{
+     background: #3B3B3B;
+     padding: 0px 0px 90px 0px;
+     border-radius: 20px;
+}
+.hero-main-img{
+    position: relative;
+    cursor: pointer;
+    transition: .4s;
+}
+.hero-main-img:hover{
+    transform: scale(.97);
+    transition: .4s;
+}
+.star-hero{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main-img-txt{
+    position: absolute;
+    left: 14px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.hero-main-img h1{
+    color: #FFF;
+
+/* H5 - Work Sans */
+font-size: 22px;
+font-weight: 600;
+}
+.star-hero p{
+    color: #ffffffc0;
+
+/* Base(Body) - Work Sans */
+font-size: 16px;
+font-weight: 400;
+}
 
 
 
