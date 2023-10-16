@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background: rgba(43, 43, 43, 1);
+}
+
+.container{
+width: 1230px;
+margin: 0 auto;
+}
+
+
+
+
+
+
+/* FOR HEADER ---------------------*/
+#header{
+    padding: 23px 0px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-end{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+.header-end a{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 550;
+    transition: .2s;
+}
+.header-end a:hover{
+    color: rgb(133, 230, 196);
+    transform: scale(1.1);
+}
+.header-btn button{
+    cursor: pointer;
+    border: none;
+height: 44px;
+padding: 0px 22px 0 45px;
+gap: 12px;
+border-radius: 20px;
+background: var(--Call-to-Action, #A259FF);
+color: #FFF;
+font-size: 16px;
+font-weight: 600;
+}
+.header-btn{
+    position: relative;
+}
+.header-btn ion-icon{
+    cursor: pointer;
+    position: absolute;
+    left: 15%;
+    top: 23%;
+    color: white;
+    font-size: 22px;
+}
+.header-btn a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+/* FOR HERO ------------------- */
+
+
+
+
+
+/* FOR SECTION - 2  _______________ */
+
+
+
+
+
+
+/* FOR SECTION - 3 ______________________ */
