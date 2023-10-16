@@ -211,9 +211,89 @@ font-weight: 400;
 
 /* FOR SECTION - 2  _______________ */
 
+#collection {
+    margin-top: 90px;
+}
 
+.collection h3 {
+margin-left: 38px;
+ color: var(--White, #FFF);
+/* H3 - Work Sans */
+font-size: 38px;
+font-weight: 600;
+text-transform: capitalize;
+}
 
+.collection p {
+margin: 8px 0 8px 38px;
+ color: var(--White, #FFF);
+/* Body Text- Work Sans */
+font-size: 22px;
+font-weight: 400;
+text-transform: capitalize;
+}
 
+.collection-blocks {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 85px; */
+}
+
+.dog {
+    margin-top: 50px;
+}
+
+.types-dogs {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin:10px 0;
+}
+
+.types-1025 {
+ display: flex;
+ height: 32px;
+ width: 64px;
+padding: 32px 15px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 20px;
+background: var(--Call-to-Action, #A259FF);
+}
+
+.types-1025 h5 {
+ color: #FFF;
+text-align: center;
+/* H5 - Space Mono */
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+text-transform: capitalize;
+}
+
+.dog-end {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dog h5 {
+padding: 8px 0;
+ color: #FFF;
+/* H5 - Work Sans */
+font-size: 22px;
+font-weight: 600;
+text-transform: capitalize;
+}
+
+.dog-end p {
+ color: #FFF;
+/* Base(Body) - Work Sans */
+font-size: 16px;
+font-weight: 400;
+}
 
 
 /* FOR SECTION - 3 ______________________ */
