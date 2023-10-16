@@ -21,6 +21,11 @@ margin: 0 auto;
 
 
 /* FOR HEADER ---------------------*/
+.header-nav {
+    display: flex;
+    gap: 40px;
+
+}
 #header{
     padding: 23px 0px;
 }
@@ -40,19 +45,20 @@ margin: 0 auto;
     align-items: center;
     gap: 59px;
 }
-.header-end a{
+.header-nav a{
     color: #FFF;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 550;
     transition: .2s;
+    margin-left: 10px;
 }
-.header-end a:hover{
+.header-nav a:hover{
     color: rgb(133, 230, 196);
     transform: scale(1.1);
 }
-.header-btn button{
+.btn{
     cursor: pointer;
     border: none;
 height: 44px;
@@ -60,22 +66,28 @@ padding: 0px 22px 0 45px;
 gap: 12px;
 border-radius: 20px;
 background: var(--Call-to-Action, #A259FF);
-color: #FFF;
+color: #ffffff;
 font-size: 16px;
 font-weight: 600;
+transition: .3s;
 }
-.header-btn{
+.btn:hover{
+    color: black;
+    background: rgb(255, 255, 255);
+    transition: .3s;
+    transform: scale(1.06);
+}
+.btn{
     position: relative;
 }
-.header-btn ion-icon{
+.btn ion-icon{
     cursor: pointer;
     position: absolute;
     left: 15%;
     top: 23%;
-    color: white;
     font-size: 22px;
 }
-.header-btn a:hover{
+.btn button:hover{
     color: red;
 }
 
