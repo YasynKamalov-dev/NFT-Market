@@ -404,13 +404,15 @@ color: #FFF;
 text-align: center;
 font-size: 16px;
 font-weight: 600;
+transition: .4s;
+cursor: pointer;
 }
 
 .cr-st-right button:hover {
     background: rgb(235, 102, 6);
     border: none;
     transform: scale(1.1);
-    transition: .3s;
+    transition: .4s;
 
 }
 
@@ -434,20 +436,29 @@ display: flex;
 padding:20px;
 flex-direction: column;
 align-items: center;
-gap: 35px;
+gap: 25px;
  background: #3B3B3B;
 border-radius: 20px;
-width: 240px;
+width: 225px;
 height: 235px;
+cursor: pointer;
+color: white;
+transition: .4s;
+}
+.cr-block-1:hover{
+    background: rgba(190, 200, 1, 0.793);
+    color: rgb(255, 255, 255);
+    transition: .5s;
 }
 
 .cr-block-1 h5 {
-color: #FFF;
+color: inherit;
 text-align: center;
 /* H5 - Work Sans */
 font-size: 22px;
 font-weight: 600;
 text-transform: capitalize;
+
 }
 
 .cr-block-1 p {
@@ -459,7 +470,7 @@ font-weight: 400;
 }
 
 .cr-block-1 span {
-color: var(--Text, #FFF);
+color: rgb(255, 255, 255);
 /* Base (Body) - Space Mono */
 font-size: 16px;
 font-weight: 400;
@@ -494,6 +505,13 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 text-align: center;
+transition: .3s;
+}
+.cr-block-1 h3:hover{
+    background: white;
+    color: black;
+    transition: .3s;
+    transform: scale(1.1);
 }
 
 
