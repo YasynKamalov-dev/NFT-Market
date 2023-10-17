@@ -357,7 +357,144 @@ margin: 0px 0px 0px 10px;
 }
 
 /* FOR SECTION - 3 ______________________ */
+#creators {
+    margin-top: 200px;
+}
 
+.creators-start {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 130px;
+}
+
+.cr-st-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cr-st-left h3 {
+ color: var(--White, #FFF);
+/* H3 - Work Sans */
+font-size: 38px;
+font-weight: 600;
+text-transform: capitalize;
+}
+
+.cr-st-left p {
+color: var(--White, #FFF);
+/* Body Text- Work Sans */
+font-size: 22px;
+font-weight: 400;
+text-transform: capitalize;
+}
+
+.cr-st-right button {
+ display: flex;
+height: 60px;
+padding: 0px 50px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 20px;
+background: transparent;
+border: 2px solid var(--Call-to-Action, #A259FF);
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+}
+
+.cr-st-right button:hover {
+    background: rgb(235, 102, 6);
+    border: none;
+    transform: scale(1.1);
+    transition: .3s;
+
+}
+
+.cr-st-right ion-icon {
+ width: 20px;
+height: 20px;
+color: #A259FF;
+}
+
+
+
+.cr-blocks {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cr-block-1 {
+display: flex;
+padding:20px;
+flex-direction: column;
+align-items: center;
+gap: 35px;
+ background: #3B3B3B;
+border-radius: 20px;
+width: 240px;
+height: 235px;
+}
+
+.cr-block-1 h5 {
+color: #FFF;
+text-align: center;
+/* H5 - Work Sans */
+font-size: 22px;
+font-weight: 600;
+text-transform: capitalize;
+}
+
+.cr-block-1 p {
+ color: var(--caption-label-text, #858584);
+text-align: right;
+/* Base(Body) - Work Sans */
+font-size: 16px;
+font-weight: 400;
+}
+
+.cr-block-1 span {
+color: var(--Text, #FFF);
+/* Base (Body) - Space Mono */
+font-size: 16px;
+font-weight: 400;
+}
+
+.cr-block-1-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cr-block-1 {
+    margin-top: 60px;
+    position: relative;
+}
+
+.cr-block-1 h3 {
+position: absolute;
+left: 20px;
+top: 18px;
+ width: 30px;
+height: 30px;
+ border-radius: 50%;
+background:#2B2B2B;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 30px;
+color: var(--caption-label-text, #858584);
+text-align: center;
+/* Base (Body) - Space Mono */
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
 
 
 
@@ -542,3 +679,7 @@ height: 240px;
     font-size: 90px;
     cursor: pointer;
 }
+
+
+
+
