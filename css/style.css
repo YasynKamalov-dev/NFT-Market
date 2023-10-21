@@ -962,3 +962,109 @@ cursor: pointer;
 
 
 /* FOOOOOOOOTER ______LAST________ */
+#footer{
+padding: 40px 0 40px 0;
+gap: 30px;
+background: rgba(59, 59, 59, 1);
+
+}
+.footer-logo{
+    cursor: pointer;
+}
+.footer-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer p{
+    font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #a9a7a7dc;
+margin: 20px 0px;
+}
+.footer-icons ion-icon {
+     color: #a9a7a7dc ;
+     font-size: 25px;
+     cursor: pointer;
+     margin-right: 10px;
+}
+.footer h1{
+    margin-bottom: 10px;
+font-size: 25px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+.footer-input{
+    position: relative;
+}
+.footer-input input{
+    border: none;
+    outline: none;
+    width: 250px;
+padding: 16px 70px 16px 20px;
+border-radius: 15px;
+gap: 12px;
+}
+.footer-icon h2{
+    cursor: pointer;
+    width: 100px;
+background: rgba(162, 89, 255, 1);
+padding: 10px 50px 10px 30px;
+color: white;
+border-radius: 15px;
+position: absolute;
+right: 0;
+top: 0;
+}
+.footer hr{
+    margin: 30px 0;
+}
+.jumadil-icon ion-icon{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 0px;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 20px;
+}
+.jumadil-icon{
+    display: flex;
+    gap: 17px;
+}
+.jumadil-icon span{
+    color: rgb(8, 211, 8);
+    margin-right: 20px;
+}
+.made hr{
+    width: 350px;
+    margin: 5px;
+}
+.motion{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.motion-m{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.motion ion-icon{
+    color: white;
+    font-size: 20px;
+}
+.motion h2{
+    color: white;
+    font-size: 17px;
+}
+.linem hr{
+    width: 300px;
+}
