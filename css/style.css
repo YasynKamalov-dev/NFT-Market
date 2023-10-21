@@ -713,16 +713,256 @@ height: 240px;
 
 
 /* FOR SECTION-6________MAGIC */
+#magic{
+    background: url("../img/back-shadow.png") no-repeat center/cover;
+    width: 100%;
+    height: 640px;
+    cursor: pointer;
+    transition: 1s;
+    margin: 160px 0 50px 0;
+    display: flex;
+    align-items: end;
+    padding-bottom: 50px;
+}
+#magic:hover{
+    background: url("../img/back-none.png") no-repeat center/cover;
+    width: 100%;
+    height: 640px;
+    transition: 1s;
+}
+.shromie h3{
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+color: white;
+}
+.shromie{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(59, 59, 59, 1);
+    padding: 8px 14px;
+    width: 120px;
+    border-radius: 20px;
+}
+.magic-left h1{
+font-size: 51px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+color: white;
+}
+.see-nft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    width: 100px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.see-nft:hover{
+    background: chocolate;
+    color: white;
+    transition: .3s;
+}
+.see-nft ion-icon{
+    color: #A259FF;
+    font-size: 18px;
+}
+.see-nft h2{
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+
+}
+.magic-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.magic-right{
+    width: 280px;
+height: Hug (144px);
+padding: 40px 40px;
+border-radius: 20px;
+gap: 10px;
+background: rgba(59, 59, 59, 0.719);
+
+}
+.magic-right p{
+font-size: 15px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.2em;
+color: rgba(255, 255, 255, 0.74);
+word-spacing: 20px;
+
+}
+.magic-right h1{
+font-size: 38px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+color: white;
+
+}
+.magic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
 
 
 
 
 
 /* FOR SECTION-7______WORKS */
+#works{
+    margin: 100px 0px;
+}
+.work-main h1{
+font-size: 38px;
+font-weight: 600;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
 
+}
+.work-main p{
+font-size: 22px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+margin-top: 20px;
 
+}
+.work-block{
+    background: rgba(59, 59, 59, 1);
+    width: 334px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 20px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+.work-block:hover{
+    background: #0caa53;
+    color: black;
+    transition: .5s;
+}
+.work-block h2{
+font-size: 22px;
+font-weight: 600;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+margin: 10px 0px 20px 0px;
+}
+.work-block p{
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 0.767);
+
+}
+.work-blocks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
 
 
 /* FOR SECTION-8______JOIN */
+#join{
+    margin: 150px 0px;
+}
+.join{
+    background: rgb(65, 65, 65);
+    padding: 60px 120px;
+    border-radius: 30px;
+}
+.itself-join{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.join-info h1{
+font-size: 38px;
+font-weight: 600;
+line-height: 46px;
+letter-spacing: 0em;
+color: white;
+}
+.join-info p{
+font-size: 22px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+color: rgba(255, 255, 255, 0.666);
+margin: 30px 0px;
+}
+.join-input input{
+    padding: 20px 60px 20px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.join-input input::placeholder{
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+}
+.join-icon{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+padding: 17px 20px;
+width: 180px;
+background: rgba(162, 89, 255, 1);
+border-radius: 20px;
+position: absolute;
+right: 4px;
+top: -2px;
+cursor: pointer;
+}
+.join-icon ion-icon{
+    font-size: 25px;
+}
+.join-input{
+    position: relative;
+}
 
 
+
+
+
+
+
+
+
+/* FOOOOOOOOTER ______LAST________ */
