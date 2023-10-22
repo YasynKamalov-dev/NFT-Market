@@ -766,6 +766,8 @@ background: transparent;
     padding-bottom: 173px;
     background: #3B3B3B;
     border-radius: 20px;
+    transition: .3s;
+    cursor: pointer;
 }
 
 .ds-block-1-down h5 {
@@ -1202,3 +1204,5 @@ top: 0;
 .linem hr{
     width: 300px;
 }
+
+
