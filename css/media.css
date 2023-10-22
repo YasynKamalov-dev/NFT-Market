@@ -1,0 +1,467 @@
+@media(max-width: 1440px){
+    .container{
+        width: 95%;
+    }
+    .itself-categories {
+        gap: 46px;
+    }
+    .cr-blocks {
+    gap: 11px;
+}
+}
+@media (max-width: 1200px){
+    .cr-block-1 {
+        width: 202px;
+        height: 209px;
+    }
+    .work-block {
+        width: 287px; 
+    }
+    .join {
+        padding: 55px 88px;
+    }
+}
+@media(max-width: 1024px){
+    .hero-info h1 {
+        font-size: 36px;
+    }
+    .hero-info .pp {
+        font-size: 15px;
+    }
+    .hero-btn {
+        height: 44px;
+        padding: 0px 19px;
+        gap: 5px;
+    }
+    .hero-main-img .hero-back {
+        width: 390px;
+    }
+    .header-nav {
+        gap: 17px;
+    }
+    .header-end {
+        gap: 28px;
+    }
+    .collection-blocks {
+        flex-wrap: wrap;
+    }
+    .ds-img-1 {
+        width: 293px;
+    }
+    .ds-block-1-down {
+        gap: 6px;
+        top: 280px;
+        left: 18px;
+    }
+    .ds-block-1-down h5 {
+        font-size: 16px;
+    }
+    .magic-right {
+        width: 250px;
+        height: (144px);
+        padding: 8px 40px;
+    }
+    .magic-right h1 {
+        font-size: 37px;
+    }
+    .magic-right p {
+        font-size: 13px;
+    }
+    .magic-left h1 {
+        font-size: 40px;
+    }
+    .work-block img{
+        width: 200px;
+    }
+    .work-block h2 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .work-block p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .work-block {
+        width: 245px;
+    }
+    .itself-join img{
+        width: 338px;
+    }
+    .join-info h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .join-info p {
+        font-size: 18px;
+    }
+    .join-input input {
+        padding: 13px 56px 13px 11px;
+    }
+    .join-icon {
+        font-size: 16px;
+        padding: 10px 12px;
+        width: 149px;
+        right: -4px;
+        top: -2px;
+        cursor: pointer;
+    }
+    .footer h1 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+    .made hr {
+        width: 285px;
+        margin: 13px;
+    }
+}
+@media (max-width: 992px){
+    .ds-img-1 {
+        width: 271px;
+        padding-bottom: 131px;
+    }
+    .ds-block-1-down {
+        gap: 0px;
+        top: 260px;
+        left: 10px;
+    }
+    .ds-block-1-down h5 {
+        font-size: 14px;
+        margin-bottom: 10px;
+}
+    
+    .ds-down-center {
+        gap: 9px;
+    }
+    .ds-down-end {
+        gap: 68px;
+    }
+    .ds-down-center-2 {
+        gap: 106px;
+    }
+}
+@media (max-width: 768px){
+    .logo img{
+        width: 22px;
+        gap: 7px;
+    }
+    .logo .l{
+        width: 90px;
+    }
+    .btn {
+        height: 31px;
+        padding: 0px 15px 0 32px;
+        font-size: 10px;
+    }
+    .btn ion-icon{
+        font-size: 16px;
+    }
+    .header-nav a {
+        font-size: 12px;
+        margin-left: 23px;
+    }
+    .hero-main-img .hero-back {
+        width: 323px;
+    }
+    .hero-info h1 {
+        font-size: 21px;
+    }
+    .hero-info .pp {
+        font-size: 12px;
+    }
+    .follow p {
+        font-size: 14px;
+    }
+    .collection h3 {
+        margin-left: 25px;
+        font-size: 26px;
+    }
+    .collection p {
+        margin: 7px 0 8px 27px;
+        font-size: 14px;
+    }
+    .back-dog {
+        width: 270px;
+        height: 269px;
+    }
+    .back-dog:hover {
+        width: 270px;
+        height: 269px;
+    }
+    .mush {
+        width: 270px;
+        height: 269px;
+    }
+    .mush:hover {
+        width: 270px;
+        height: 269px;
+    }
+    .robot-back{
+        width: 270px;
+        height: 269px;
+    }
+    .robot-back:hover{
+        width: 270px;
+        height: 269px;
+    }
+    .types-dogs img {
+        width: 65px;
+    }
+    .types-1025 {
+        width: 40px;
+        height: 3px;
+    }
+    .dog h5 {
+        font-size: 14px;
+    }
+    .collection p {
+        margin: 7px 0 8px 7px;
+        font-size: 13px;
+    }
+    .cr-st-left h3 {
+        font-size: 27px;
+    }
+    .cr-st-left p {
+        font-size: 14px;
+    }
+    .cr-st-right button {
+        height: 52px;
+        padding: 0px 22px;
+        gap: 8px;
+        font-size: 9px;
+    }
+    .cr-blocks img{
+        width: 81px;
+    }
+    .cr-block-1 h3 {
+        font-size: 10px;
+        height: 24px;
+        width: 24px;
+    }
+    .cr-block-1 h5 {
+        font-size: 16px;
+    }
+    .cr-block-1 p {
+        font-size: 11px;
+    }
+    .cr-block-1 span {
+        font-size: 11px;
+    }
+    .cr-block-1 {
+        width: 173px;
+        height: 175px;
+    }
+    .categories-main-txt {
+        gap: 512px;
+    }
+    .categories-main-txt h1 {
+        font-size: 19px;
+    }
+    .categories-block h3 {
+        font-size: 17px;
+    }
+    .ds-start-txt h3 {
+        font-size: 24px;
+    }
+    .ds-start-txt p {
+        font-size: 13px;
+    }
+    .discover-start button {
+        display: flex;
+        height: 48px;
+        padding: 0px 28px;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        border-radius: 20px;
+        border: 2px solid var(--Call-to-Action, #A259FF);
+        color: #FFF;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        background: transparent;
+    }
+    .ds-img-1 {
+        width: 193px;
+    }
+    .ds-img-1 {
+        padding-bottom: 85px;
+    }
+    .ds-block-1-down {
+        top: 178px;
+    }
+    .ds-block-1-down h5 {
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+    .ds-down-center-2 {
+        margin-top: 0px;
+        gap: 96px
+    }
+    .ds-down-center-2 p {
+        font-size: 9px;
+    }
+    .ds-down-center img{
+        width: 16px;
+    }
+    .ds-down-end p {
+        font-size: 10px;
+    }
+    #magic {
+        height: 340px;
+    }
+    #magic:hover {
+        height: 340px;
+    }
+    .shromie img{
+        width: 17px;
+    }
+    .shromie h3 {
+        font-size: 11px;
+       
+    }
+    .shromie {
+        padding: 4px 12px;
+        width: 79px;
+    }
+    .magic-left h1 {
+        font-size: 25px;
+    }
+    .see-nft {
+        width: 63px;
+        padding: 0px 15px;
+    }
+    .see-nft h2 {
+        font-size: 9px;
+    }
+    .magic-left {
+        gap: 0px;
+    }
+    .magic-right p {
+        font-size: 11px;
+        word-spacing: 21px;
+    }
+    .magic-right h1 {
+        font-size: 29px;
+    }
+    .magic-right {
+        width: 216px;
+        padding: 3px 47px;
+    }
+    .work-main h1 {
+        font-size: 25px;
+    
+    }
+    .work-main p {
+        font-size: 13px;
+        margin-top: 0px;
+    }
+    .work-block img {
+        width: 106px;
+    }
+    .work-block h2 {
+        font-size: 12px;
+        line-height: 0px;
+    }
+    .work-block p {
+        font-size: 9px;
+        line-height: 14px;
+    }
+    .work-block {
+        width: 175px;
+        padding: 37px 20px;
+    }
+    .itself-join img {
+        width: 216px;
+    }
+    .join-info h1 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .join-info p {
+        font-size: 13px;
+    line-height: 27px;
+    margin: 10px 0p
+    }
+    .join-input input {
+        padding: 11px 59px 10px 11px;
+    }
+    .join-input input::placeholder{
+        font-size: 10px;
+    } 
+    .join-icon {
+        font-size: 9px;
+        padding: 6px 10px;
+        width: 107px;
+        right: -4px;
+        top: 0px;
+        cursor: pointer;
+    }
+    .join {
+        padding: 38px 76px;
+    }
+    .footer-logo img{
+        width: 19px;
+    }
+    .footer-logo .l{
+        width: 115px;
+    }
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .footer h1 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .footer p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #a9a7a7dc;
+        margin: 13px 0px;
+    }
+    .footer-icons ion-icon {
+        font-size: 16px;
+    }
+    .footer-input input {
+        width: 107px;
+        padding: 10px 67px 10px 16px;
+    }
+    .footer-input input::placeholder {
+        font-size: 10px;
+    }
+    .footer-icon h2 {
+        width: 31px;
+        padding: 11px 55px 11px 21px;
+        right: -4px;
+        top: -1px;
+        font-size: 14px;
+    }
+    .jumadil-icon ion-icon {
+        font-size: 13px;
+    }
+    .motion h2 {
+        font-size: 13px;
+    }
+    .motion {
+        gap: 9px;
+    }
+}
+@media (max-width: 1160px){
+    .hero-info h1 {
+        font-size: 35px;}
+        .hero-info .pp {
+            font-size: 17px;
+            line-height: 128%;
+        }
+        .follow p {
+            font-size: 18px;
+        }
+        .hero-main-img .hero-back {
+            width: 390px;
+        }
+    
+}

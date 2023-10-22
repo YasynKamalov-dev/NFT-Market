@@ -1099,6 +1099,7 @@ cursor: pointer;
 padding: 40px 0 40px 0;
 gap: 30px;
 background: rgba(59, 59, 59, 1);
+width: 100%;
 
 }
 .footer-logo{
