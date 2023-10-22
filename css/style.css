@@ -412,12 +412,9 @@ cursor: pointer;
     background: rgb(235, 102, 6);
     border: none;
     transform: scale(1.1);
-<<<<<<< HEAD
-    transition: .3s;
-=======
     transition: .4s;
 
->>>>>>> fc5dc60e258ff1cc108e197f65fcb86e0d087b6d
+
 }
 
 .cr-st-right ion-icon {
