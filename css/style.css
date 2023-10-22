@@ -414,6 +414,7 @@ cursor: pointer;
     transform: scale(1.1);
     transition: .4s;
 
+
 }
 
 .cr-st-right ion-icon {
@@ -703,7 +704,139 @@ height: 240px;
 
 /* FOR SECTION-5_____DISCOVER */
 
+#discover {
+    padding-top: 140px;
+}
 
+.ds-start-txt h3 {
+ align-self: stretch;
+color: var(--White, #FFF);
+/* H3 - Work Sans */
+font-size: 38px;
+font-weight: 600;
+text-transform: capitalize;
+}
+
+.ds-start-txt p {
+    align-self: stretch;
+color: var(--White, #FFF);
+/* Body Text- Work Sans */
+font-size: 22px;
+font-weight: 400;
+text-transform: capitalize;
+}
+
+.discover-start {
+    display: flex;
+    /* gap: 520px; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discover-start button {
+ display: flex;
+height: 60px;
+padding: 0px 50px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 20px;
+border: 2px solid var(--Call-to-Action, #A259FF);
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+background: transparent;
+}
+
+.discover-start button:hover {
+    background: rgb(8, 194, 8);
+    border: none;
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.discover-start ion-icon {
+    color: #A259FF;
+}
+
+
+
+.ds-img-1 {
+    padding-bottom: 173px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.ds-block-1-down h5 {
+ color: var(--White, #FFF);
+/* H5 - Work Sans */
+font-size: 22px;
+font-weight: 600;
+text-transform: capitalize;
+}
+
+.ds-down-center {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.discover-blocks {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ds-down-center p {
+color: var(--White, #FFF);
+/* Base (Body) - Space Mono */
+font-size: 16px;
+font-weight: 400;
+}
+
+.ds-block-1 {
+    position: relative;
+}
+
+.ds-block-1-down {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+    position: absolute;
+    top: 310px;
+    left: 30px;
+}
+
+.ds-down-center-2 {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.ds-down-center-2 p {
+ color: #858584;
+/* Caption - Space Mono */
+font-size: 12px;
+font-weight: 400;
+}
+
+.ds-down-end {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.ds-down-end p {
+color: var(--White, #FFF);
+/* Base (Body) - Space Mono */
+font-size: 16px;
+font-weight: 400;
+}
 
 
 
