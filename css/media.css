@@ -139,6 +139,16 @@
         gap: 106px;
     }
 }
+@media(max-width: 981px){
+    .categories-main-txt h1 {
+        font-size: 28px;
+        margin-left: 16px;
+    }
+
+}
+@media(max-width: 938px){
+
+}
 @media (max-width: 768px){
     .logo img{
         width: 22px;
@@ -464,4 +474,104 @@
             width: 390px;
         }
     
+}
+@media(max-width: 913px){
+    .btn {
+        height: 36px;
+        padding: 0px 13px 0 37px;
+        font-size: 13px;
+    }
+    .logo img{
+        width: 22px;
+    }
+    .logo .l{
+        width: 117px;
+    }
+    .collection h3 {
+        font-size: 26px;
+    }
+    .collection p {
+        font-size: 17px;
+    }
+}
+@media(max-width: 663px){
+    .btn {
+        height: 28px;
+        padding: 0px 8px 0 31px;
+        font-size: 9px;
+    }
+    .header-nav a {
+        font-size: 10px;
+        margin-left: 6px;
+    }
+    .hero-main-img .hero-back {
+        width: 240px;
+    }
+    .hero-main-img h1 {
+        font-size: 13px;
+    }
+    .star-hero p {
+        font-size: 12px;
+    }
+    .star-hero img{
+        width: 18px;
+    }
+    .hero-info h1 {
+        font-size: 20px;
+    }
+    .hero-info .pp {
+        font-size: 11px;
+        line-height: 149%;
+    }
+    .hero-btn {
+        height: 33px;
+        padding: 0px 8px;
+    }
+    .hero-btn {
+        margin: 6px 0 12px 0;
+        font-size: 11px;
+    }
+    .hero-btn ion-icon {
+        font-size: 14px;
+    }
+    .follow p {
+        font-size: 13px;
+    }
+    .collection h3 {
+        font-size: 20px;
+    }
+    .collection p {
+        font-size: 13px;
+    }
+    .back-dog {
+        width: 205px;
+        height: 204px;
+    }
+    .back-dog:hover {
+        width: 205px;
+        height: 204px;
+    }
+    .mush{
+        width: 205px;
+        height: 204px;
+    }
+    .mush:hover{
+        width: 205px;
+        height: 204px;
+    }
+    .robot-back{
+        width: 205px;
+        height: 204px;
+    }
+    .robot-back:hover{
+        width: 205px;
+        height: 204px;
+    }
+    .work-block {
+        width: 155px;
+        padding: 17px 20px;
+    }
+    .categories-main-txt {
+        gap: 453px;
+    }
 }
