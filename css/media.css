@@ -179,30 +179,362 @@
     }
 
 }
-
-@media (max-width: 768px){
+@media(max-width: 768px){
     .hero-info h1 {
-        font-size: 33px;
+        font-size: 31px;
     }
     .hero-info .pp {
         font-size: 15px;
         line-height: 128%;
     }
+    .hero-main-img .hero-back {
+        width: 289px;
+    }
+    .header-nav a {
+        font-size: 14px;
+    }
+    .btn ion-icon {
+        font-size: 19px;
+    }
+    .btn {
+        height: 29px;
+        padding: 0px 12px 0 32px;
+        font-size: 12px;
+    }
+    .hero-main-img h1 {
+        font-size: 18px;
+    }
+    .star-hero img{
+        width: 17px;
+    }
+    .star-hero p {
+        font-size: 13px;
+    }
+    .follow h1{
+        font-size: 23px;
+    }
+    .follow p {
+        font-size: 15px;
+    }
+    .types-dogs img {
+        width: 50px;
+    }
+    .dog h5 {
+        font-size: 15px;
+    }
+    .categories-main-txt {
+        gap: 565px;
+    }
+    .ds-img-1 {
+        width: 212px;
+        padding-bottom: 116px;
+    }
+    .ds-block-1-down {
+        gap: 0px;
+        top: 198px;
+        left: 10px;
+    }
+    .ds-block-1-down h5 {
+        font-size: 11px;
+        margin-bottom: 7px;
+    }
+    .ds-down-center p {
+        color: var(--White, #FFF);
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .ds-down-end p {
+        color: var(--White, #FFF);
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .ds-down-center-2 p {
+        color: #858584;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    #magic {
+        height: 392px;
+    }
+    #magic:hover {
+        height: 392px;
+    }
+    .shromie {
+        gap: 9px;
+        padding: 4px 10px;
+        width: 103px;
+    }
+    .magic-left h1 {
+        font-size: 31px;
+    }
+    .see-nft {
+        gap: 7px;
+        width: 95px;
+        padding: 7px 13px;
+    }
+    .magic-right p {
+        font-size: 11px;
+        font-weight: 900;
+    }
+    .magic-right h1 {
+        font-size: 29px;
+    }
+    .magic-right {
+        width: 217px;
+        height: (144px);
+        padding: 8px 40px;
+    }
+    .work-main h1 {
+        font-size: 29px;
+    }
+    .work-main p {
+        font-size: 20px;
+        line-height: 0px;
+    }
+    .work-block img {
+        width: 101px;
+    }
+    .work-block h2 {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .work-block p {
+        font-size: 10px;
+        line-height: 23px;
+    }
+    .work-block {
+        width: 180px;
+    }
+    .itself-join img {
+        width: 242px;
+    }
+    .join-info h1 {
+        font-size: 21px;
+        line-height: 29px;
+    }    
+    .join-info p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .join-input input {
+        padding: 9px 56px 9px 11px;
+    }
+    .join-icon {
+        font-size: 12px;
+        padding: 6px 7px;
+        width: 133px;
+        right: -31px;
+        top: 0px;
+        cursor: pointer;
+    }
+    .join-input input::placeholder{
+        font-size: 14px;
+    }
+    .footer-logo img{
+        width: 22px;
+    }
+    .footer-logo .l{
+        width: 104px;
+    }
+    .footer h1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .footer-input input {
+        width: 129px;
+        padding: 9px 35px 9px 11px;
+    }
+    .footer-input input::placeholder{
+        font-size: 13px;
+    }
+    .footer-icon h2 {
+        width: 48px;
+        padding: 7px 50px 8px 9px;
+        right: 13px;
+        font-size: 17px;
+    }
+    .types-1025 {
+        padding: 19px 3px;
+    }
+    .back-dog {
+        height: 174px;
+    }
+    .back-dog:hover {
+        height: 174px;
+    }
+    .mush{
+        height: 174px;
+    }
+    .mush:hover{
+        height: 174px;
+    }
+    .robot-back{
+        height: 174px;
+    }
+    .robot-back:hover{
+        height: 174px;
+    }
+    .cr-st-left h3 {
+        font-size: 29px;
+    }
+    .cr-st-left p {
+        font-size: 18px;
+    }
+    .cr-st-right button {
+        height: 47px;
+        padding: 0px 18px;
+        font-size: 12px;
+    }
 }
-@media (max-width: 1160px){
+@media(max-width: 576px){
+    .discover-blocks {
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .itself-join img {
+        width: 185px;
+    }
+    .join-info h1 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .join-info p {
+        font-size: 13px;
+        line-height: 15px;
+        margin: 17px 0px;
+    }
+    .join-input input::placeholder{
+        font-size: 12px;
+    }
+    .join-input input {
+        padding: 6px 1px 6px 9px;
+    }
+    .join-icon {
+        font-size: 10px;
+        padding: 2px 4px;
+        width: 118px;
+        right: -11px;
+        top: 0px;
+        cursor: pointer;
+    }
+    .footer-main {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 83px;
+    }
+    .join {
+        padding: 41px 33px;
+    }
+    .categories-main-txt {
+        gap: 366px;
+    }
+    .ds-start-txt h3 {
+        font-size: 33px;
+    }
+    .ds-start-txt p {
+        font-size: 19px;
+    }
+    .discover-start button {
+        height: 42px;
+        padding: 0px 29px;
+        font-size: 13px;
+    }
+    .ds-img-1 {
+        width: 243px;
+        padding-bottom: 136px;
+    }
+    .ds-block-1-down {
+        top: 236px;
+    }    
+    #magic {
+        height: 304px;
+    }
+    .magic-left h1 {
+        font-size: 28px;
+    }
+    .magic-right p {
+        font-size: 10px;
+        font-weight: 900;
+    }
+    .magic-right h1 {
+        font-size: 27px;
+    }
+    .magic-right {
+        width: 198px;
+        height: (144px);
+        padding: 4px 23px;
+    }
+    .work-main h1 {
+        font-size: 25px;
+    }
+    .work-main p {
+        font-size: 17px;
+        line-height: 0px;
+    }
+    .work-blocks {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .work-block img {
+        width: 110px;
+    }
+    .work-block {
+        width: 206px;
+    }
+    .work-block h2 {
+        font-size: 17px;
+        line-height: 15px;
+    }
+    .work-block p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .header-end {
+        gap: 13px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    .btn {
+        font-size: 11px;
+    }
+    .header-nav {
+        gap: 14px;
+    }
+    .header {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .hero-all-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 47px;
+    }
     .hero-info h1 {
-        font-size: 35px;}
-        .hero-info .pp {
-            font-size: 17px;
-            line-height: 128%;
-        }
-        .follow p {
-            font-size: 18px;
-        }
-        .hero-main-img .hero-back {
-            width: 390px;
-        }
-    
+        font-size: 39px;
+        text-align: center;
+    }
+    .hero-info .pp {
+        font-size: 16px;
+        line-height: 126%;
+        text-align: center;
+    }
+    .hero-main-img .hero-back {
+        width: 343px;
+    }    
 }
 @media(max-width: 913px){
     .btn {
@@ -223,84 +555,333 @@
         font-size: 17px;
     }
 }
-@media(max-width: 663px){
-    .btn {
-        height: 28px;
-        padding: 0px 8px 0 31px;
-        font-size: 9px;
+@media(max-width: 451px){
+    .header-nav {
+        gap: 17px;
+        display: flex;
+        flex-direction: column;
     }
-    .header-nav a {
-        font-size: 10px;
-        margin-left: 6px;
-    }
-    .hero-main-img .hero-back {
-        width: 240px;
-    }
-    .hero-main-img h1 {
-        font-size: 13px;
-    }
-    .star-hero p {
-        font-size: 12px;
-    }
-    .star-hero img{
-        width: 18px;
+    .header-end {
+        gap: 19px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: end;
+        flex-direction: column;
     }
     .hero-info h1 {
-        font-size: 20px;
+        font-size: 33px;
+        text-align: center;
     }
     .hero-info .pp {
-        font-size: 11px;
-        line-height: 149%;
-    }
-    .hero-btn {
-        height: 33px;
-        padding: 0px 8px;
-    }
-    .hero-btn {
-        margin: 6px 0 12px 0;
-        font-size: 11px;
-    }
-    .hero-btn ion-icon {
         font-size: 14px;
+        line-height: 126%;
+        text-align: center;
     }
-    .follow p {
-        font-size: 13px;
-    }
-    .collection h3 {
-        font-size: 20px;
-    }
-    .collection p {
-        font-size: 13px;
+    .hero-main-img .hero-back {
+        width: 301px;
     }
     .back-dog {
-        width: 205px;
-        height: 204px;
+        height: 258px;
+        width: 100%;
     }
     .back-dog:hover {
-        width: 205px;
-        height: 204px;
+        height: 258px;
+        width: 100%;
     }
     .mush{
-        width: 205px;
-        height: 204px;
+        height: 258px;
+        width: 100%;
     }
     .mush:hover{
-        width: 205px;
-        height: 204px;
+        height: 258px;
+        width: 100%;
     }
     .robot-back{
-        width: 205px;
-        height: 204px;
+        height: 258px;
+        width: 100%;
     }
     .robot-back:hover{
-        width: 205px;
-        height: 204px;
+        height: 258px;
+        width: 100%;
     }
-    .work-block {
-        width: 155px;
-        padding: 17px 20px;
+    .collection-blocks {
+        flex-wrap: wrap;
+        gap: 36px;
+    }
+    .types-dogs img {
+        width: 74px;
+    }
+    .dog h5 {
+        font-size: 22px;
+    }
+    .types-1025 {
+        padding: 27px 10px;
+    }
+    .creators-start {
+        gap: 37px;
+    }
+    .cr-st-left h3 {
+        font-size: 25px;
+    }
+    .cr-st-left p {
+        font-size: 16px;
+    }
+    .cr-block-1 img{
+        width: 79px;
+    }
+    .cr-block-1 h5 {
+        font-size: 18px;
+    }
+    .cr-block-1 p {
+        font-size: 14px;
+    }
+    .cr-block-1 {
+        width: 175px;
+        height: 166px;
+        padding: 14px
+    }
+    .cr-block-1 span {
+        font-size: 14px;
     }
     .categories-main-txt {
-        gap: 453px;
+        gap: 233px;
+    }
+    .categories-main-txt h1 {
+        font-size: 25px;
+        margin-left: 16px;
+    }
+    .discover-start button {
+        padding: 0px 19px;
+    }
+    .ds-start-txt h3 {
+        font-size: 27px;
+    }
+    .ds-start-txt p {
+        font-size: 17px;
+    }
+    .ds-block-1-down h5 {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+    .ds-img-1 {
+        width: 279px;
+        padding-bottom: 144px;
+    }
+    .ds-block-1-down {
+        top: 265px;
+        gap: 8px;
+    }
+    .ds-down-center-2 p {
+        font-size: 13px;
+    }
+    .ds-down-end p {
+        font-size: 15px;
+    }
+    .shromie {
+        gap: 9px;
+        padding: 3px 6px;
+        width: 101px;
+    }
+    .shromie img{
+        width: 20px;
+    }
+    .shromie h3 {
+        font-size: 14px;
+    }
+    .magic-left h1 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    #magic {
+        height: 215px;
+        
+    }
+    .magic-right p {
+        font-size: 9px;
+        font-weight: 900;
+    }
+    .work-main h1 {
+        font-size: 23px;
+    }
+    .work-block {
+        width: 258px;
+    }
+    .itself-join img {
+        width: 166px;
+    }
+    .join-info h1 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .join-info p {
+        font-size: 12px;
+        line-height: 13px;
+        margin: 11px 0px;
+    }
+    .join {
+        padding: 31px 14px;
+    }
+    .join-input input::placeholder{
+        font-size: 10px;
+    }
+    .join-input input {
+        padding: 4px 1px 6px 6px;
+    }
+    .icon-inner, .ionicon, svg {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    .join-icon {
+        font-size: 9px;
+        padding: 1px 5px;
+        width: 105px;
+        right: 3px;
+        top: 0px;
+        cursor: pointer;
+    }
+    
+}
+@media(max-width: 400px){
+    .cr-st-left p {
+        font-size: 14px;
+    }
+    .ds-start-txt h3 {
+        font-size: 25px;
+    }
+    .discover-start button {
+        padding: 0px 10px;
+    }
+    .ds-start-txt p {
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+    .discover-blocks {
+        gap: 56px;
+    }
+    .magic-right p {
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0.2em;
+        color: rgba(255, 255, 255, 0.74);
+        word-spacing: 11px;
+    }
+    .magic-right h1 {
+        font-size: 20px;
+    }
+    .magic-right {
+        width: 178px;
+        height: (144px);
+        padding: 0px 23px;
+    }
+    .itself-join img {
+        width: 123px;
+        /* height: 200px; */
+    }
+    .join-info p {
+        font-size: 10px;
+        line-height: 16px;
+        margin: 11px 0px;
+    }
+}
+@media(max-width: 376px){
+    .hero-info h1 {
+        font-size: 29px;
+        text-align: center;
+    }
+    .hero-main-img .hero-back {
+        width: 276px;
+    }
+    .cr-st-left p {
+        font-size: 13px;
+    }
+    .categories-main-txt h1 {
+        font-size: 24px;
+        margin-left: 0px;
+    }
+    .categories-main-txt {
+        gap: 207px;
+    }
+    .magic-right p {
+        font-size: 7px;
+    }
+    .join-icon {
+        font-size: 8px;
+        padding: 2px 0px;
+        width: 89px;
+        right: -6px;
+        top: 0px;
+        cursor: pointer;
+        gap: 4px;
+    }
+    .join-icon ion-icon{
+        font-size: 13px;
+        margin-left: 6px;
+    }
+}
+@media(max-width: 320px){
+    .hero-info .pp {
+        font-size: 12px;
+        line-height: 126%;
+        text-align: center;
+    }
+    .hero-btn {
+        height: 37px;
+        padding: 0px 12px;
+        gap: 4px;
+        font-size: 12px;
+        
+    }
+    .hero-btn ion-icon {
+        font-size: 18px;
+    }
+    .hero-info h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .hero-main-img .hero-back {
+        width: 249px;
+    }
+    .cr-st-left p {
+        font-size: 9px;
+    }
+    .categories-main-txt h1 {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .categories-main-txt {
+        gap: 179px;
+    }
+    .ds-img-1 {
+        width: 258px;
+        padding-bottom: 133px;
+    }
+    .ds-block-1-down {
+        top: 237px;
+        gap: 8px;
+    }
+    .work-block {
+        width: 222px;
+        height: 185px;
+    }
+    .itself-join {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .join-info h1 {
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .magic-right p {
+        font-size: 6px;
+    }
+    .magic-right h1 {
+        font-size: 18px;
     }
 }
