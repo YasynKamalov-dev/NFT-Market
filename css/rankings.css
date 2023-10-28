@@ -140,7 +140,7 @@ text-align: left;
 .today{
     border-bottom: 1px solid white;
     padding-bottom: 10px;
-    border: block;
+    border: none;
 }
 .this-week{
     border-bottom: 1px solid white;
