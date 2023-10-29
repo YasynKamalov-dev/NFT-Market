@@ -15,3 +15,416 @@ body{
 width: 1230px;
 margin: 0 auto;
 }
+
+
+
+
+
+
+/* FOR HEADER -MARKETPLACE---------------------*/
+.header-nav {
+    display: flex;
+    gap: 40px;
+
+}
+#header{
+    padding: 23px 0px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-end{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+.header-nav a{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 550;
+    transition: .2s;
+    margin-left: 10px;
+}
+.header-nav a:hover{
+    color: rgb(133, 230, 196);
+    transform: scale(1.1);
+}
+.btn{
+    cursor: pointer;
+    border: none;
+height: 44px;
+padding: 0px 22px 0 45px;
+gap: 12px;
+border-radius: 20px;
+background: var(--Call-to-Action, #A259FF);
+color: #ffffff;
+font-size: 16px;
+font-weight: 600;
+transition: .3s;
+}
+.btn:hover{
+    color: white;
+    background: rgb(251, 80, 1);
+    transform: scale(1.1);
+    transition: .3s;
+}
+.btn{
+    position: relative;
+}
+.btn ion-icon{
+    cursor: pointer;
+    position: absolute;
+    left: 15%;
+    top: 23%;
+    font-size: 22px;
+}
+.btn button:hover{
+    color: red;
+}
+
+
+
+/* FOR HERO --------------------- */
+
+
+.hero h2 {
+color: var(--White, #FFF);
+font-size: 51px;
+font-weight: 600;
+text-transform: capitalize;
+}
+
+.hero p {
+    margin: 8px 0;
+align-self: stretch;
+color: var(--White, #FFF);
+font-size: 22px;
+font-weight: 400;
+}
+
+.hero input {
+margin-top: 35px;
+display: flex;
+width: 1050px;
+height: 60px;
+padding: 12px 0 12px 20px;
+gap: 10px;
+background: transparent;
+border-radius: 20px;
+border: 1px solid var(--Background---Secondary, #3B3B3B);
+outline: none;
+cursor: pointer;
+color: #FFF;
+}
+
+.hero::placeholder {
+color: var(--caption-label-text, #858584);
+font-size: 20px;
+font-weight: 400;
+margin-left: 20px;
+padding-left: 20px;
+}
+
+.hero {
+    padding: 50px 45px;
+}
+
+.hero-end {
+    position: relative;
+}
+
+.hero-end ion-icon {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+/* FOR CHOICE ---------------- */
+
+
+
+.choice-left h5 {
+color: var(--White, #FFF);
+text-align: center;
+font-size: 22px;
+font-weight: 600;
+text-transform: capitalize;
+}
+
+.choice-left p {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #858584;
+ color: #FFF;
+font-family: Space Mono;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+
+.choice-right h5 {
+ color: var(--caption-label-text, #858584);
+text-align: center;
+font-size: 22px;
+font-weight: 600;
+text-transform: capitalize;
+}
+
+.choice-right p {
+ color: #FFF;
+font-size: 16px;
+font-weight: 400;
+display: flex;
+padding: 5px 10px;
+align-items: center;
+gap: 10px;
+border-radius: 20px;
+background: var(--Background---Secondary, #3B3B3B);
+}
+
+.choice {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.choice-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 2px solid var(--caption-label-text, #858584);
+    width: 250px;
+    text-align: center;
+}
+
+.choice-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.img-1 {
+    padding-bottom: 173px;
+    background: #2B2B2B;
+    border-radius: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.block-1-down h5 {
+ color: var(--White, #FFF);
+/* H5 - Work Sans */
+font-size: 22px;
+font-weight: 600;
+text-transform: capitalize;
+}
+
+.down-center {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.discover-blocks {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.down-center p {
+color: var(--White, #FFF);
+/* Base (Body) - Space Mono */
+font-size: 16px;
+font-weight: 400;
+}
+
+
+.block-1 {
+    position: relative;
+}
+
+.block-1-down {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+    position: absolute;
+    top: 310px;
+    left: 30px;
+}
+
+.down-center-2 {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.down-center-2 p {
+ color: #858584;
+/* Caption - Space Mono */
+font-size: 12px;
+font-weight: 400;
+}
+
+.down-end {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.down-end p {
+color: var(--White, #FFF);
+/* Base (Body) - Space Mono */
+font-size: 16px;
+font-weight: 400;
+}
+
+
+.card-choice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding-top: 60px;
+}
+
+
+#choice-cards {
+    background: #3B3B3B;
+    padding-bottom: 80px;
+}
+
+
+
+
+/* FOOOOOOOOTER ______LAST________ */
+#footer{
+    padding: 40px 0 40px 0;
+    gap: 30px;
+    background: rgba(59, 59, 59, 1);
+    width: 100%;
+    
+    }
+    .footer-logo{
+        cursor: pointer;
+    }
+    .footer-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer p{
+        font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a9a7a7dc;
+    margin: 20px 0px;
+    }
+    .footer-icons ion-icon {
+         color: #a9a7a7dc ;
+         font-size: 25px;
+         cursor: pointer;
+         margin-right: 10px;
+    }
+    .footer h1{
+        margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    }
+    .footer-input{
+        position: relative;
+    }
+    .footer-input input{
+        border: none;
+        outline: none;
+        width: 250px;
+    padding: 16px 70px 16px 20px;
+    border-radius: 15px;
+    gap: 12px;
+    }
+    .footer-icon h2{
+        cursor: pointer;
+        width: 100px;
+    background: rgba(162, 89, 255, 1);
+    padding: 10px 50px 10px 30px;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    .footer hr{
+        margin: 30px 0;
+    }
+    .jumadil-icon ion-icon{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        margin-top: 0px;
+        border: 1px solid white;
+        padding: 3px;
+        border-radius: 20px;
+    }
+    .jumadil-icon{
+        display: flex;
+        gap: 17px;
+    }
+    .jumadil-icon span{
+        color: rgb(8, 211, 8);
+        margin-right: 20px;
+    }
+    .made hr{
+        width: 350px;
+        margin: 5px;
+    }
+    .motion{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+    }
+    .motion-m{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .motion ion-icon{
+        color: white;
+        font-size: 20px;
+    }
+    .motion h2{
+        color: white;
+        font-size: 17px;
+    }
+    .linem hr{
+        width: 300px;
+    }
