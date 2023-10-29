@@ -11,7 +11,410 @@ body{
     background: rgba(43, 43, 43, 1);
 }
 
-.container{
+.header-size{
 width: 1230px;
 margin: 0 auto;
 }
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+/* HEADER  ______________________ */
+#header{
+    margin-top: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.head-left h1{
+color: white;
+font-size: 23px;
+}
+.header-nav-btn{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.f-btn{
+    color: white;
+    cursor: pointer;
+    background: rgba(162, 89, 255, 1);
+    border: none;
+    width: 110px;
+    height: 40px;
+border-radius: 20px;
+gap: 9px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: .3s;
+}
+.f-btn:hover{
+    background: rgb(251, 80, 1);
+    transform: scale(1.1);
+    transition: .3s;
+}
+.head-nav{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.head-nav a{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .4s;
+}
+.head-nav a:hover{
+    color: rgb(133, 230, 196);
+    transform: scale(1.1);
+    transition: .4s;
+}
+.head-nav .rank{
+    transform: scale(1.1);
+    color: rgba(0, 172, 79, 1);
+    font-size: 17px;
+    font-weight: 600;
+}
+.f-btn ion-icon{
+    font-size: 20px;
+}
+.f-btn h5{
+    font-size: 14px;
+}
+
+
+
+/* HERO ++++++++++++++++++++++++++++++ */
+#hero{
+    margin: 90px 0px;
+}
+.hero h1{
+    color: white;
+font-size: 45px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.hero p{
+    color: white;
+font-size: 22px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+}
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-title a{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(200, 197, 197);
+    cursor: pointer;
+    transition: .3s;
+}
+.main-title a:hover{
+    color: rgb(255, 179, 0);
+    transition: .3s;
+}
+
+.today{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    border: none;
+}
+.this-week{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    border: none;
+}
+.this-month{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    border: none;
+}
+.all-time{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    border: none;
+}
+
+.content-first{
+    display: flex;
+    justify-content: space-between;
+
+}
+.first{
+padding: 10px 80px 10px 30px;
+border-radius: 20px;
+border: 1px solid rgb(82, 82, 82);
+gap: 10px;
+
+}
+.main-content{
+    margin-top: 30px;
+}
+.first-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.first-right{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.first-left h5{
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(133, 133, 132, 1);
+}
+.first-left h3{
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(133, 133, 132, 1);
+}
+.first-right p{
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(133, 133, 132, 1);
+}
+
+
+
+
+/* TODAY ____________________ */
+
+.today-block{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 10px 80px 10px 30px;
+border-radius: 20px;
+background: var(--Background---Secondary, #3B3B3B);
+cursor: pointer;
+margin-top: 20px;
+}
+.today-main{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.today-main h1{
+    padding: 4px 10px;
+    color: rgb(185, 183, 183);
+border-radius: 20px;
+background: #2B2B2B;
+font-size: 16px;
+font-weight: 400;
+}
+.today-main h2{
+    color: #FFF;
+font-size: 22px;
+font-weight: 600;
+text-transform: capitalize;
+}
+.today-info p{
+    color: var(--Green, #00AC4F);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.today-info h3{
+    color: var(--Text, #FFF);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.today-info h4{
+    color: var(--Text, #FFF);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.today-info{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+.today-{
+    margin-top: 30px;
+    display: block;
+}
+/* THIS _________________________ */
+.week{
+    display: none;
+}
+
+
+
+
+/* MONTH ___________________ */
+.month{
+    display: none;
+}
+
+
+
+
+
+/* ALLL ________________________ */
+.all{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOOOOTER _________ */
+#footer{
+    padding: 40px 0 40px 0;
+    gap: 30px;
+    background: rgba(59, 59, 59, 1);
+    width: 100%;
+    margin-top: 80px;
+    
+    }
+    .footer-logo{
+        cursor: pointer;
+    }
+    .footer-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer p{
+        font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a9a7a7dc;
+    margin: 20px 0px;
+    }
+    .footer-icons ion-icon {
+         color: #a9a7a7dc ;
+         font-size: 25px;
+         cursor: pointer;
+         margin-right: 10px;
+    }
+    .footer h1{
+        margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    }
+    .footer-input{
+        position: relative;
+    }
+    .footer-input input{
+        border: none;
+        outline: none;
+        width: 250px;
+    padding: 16px 70px 16px 20px;
+    border-radius: 15px;
+    gap: 12px;
+    }
+    .footer-icon h2{
+        cursor: pointer;
+        width: 100px;
+    background: rgba(162, 89, 255, 1);
+    padding: 10px 50px 10px 30px;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    .footer hr{
+        margin: 30px 0;
+    }
+    .jumadil-icon ion-icon{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        margin-top: 0px;
+        border: 1px solid white;
+        padding: 3px;
+        border-radius: 20px;
+    }
+    .jumadil-icon{
+        display: flex;
+        gap: 17px;
+    }
+    .jumadil-icon span{
+        color: rgb(8, 211, 8);
+        margin-right: 20px;
+    }
+    .made hr{
+        width: 350px;
+        margin: 5px;
+    }
+    .motion{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+    }
+    .motion-m{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .motion ion-icon{
+        color: white;
+        font-size: 20px;
+    }
+    .motion h2{
+        color: white;
+        font-size: 17px;
+    }
+    .linem hr{
+        width: 300px;
+    }
